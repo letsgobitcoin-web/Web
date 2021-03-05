@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background: url(https://baghdadsoftware.com/wp-content/uploads/2019/08/1_1msCRn-wDUzuGtI1yPUbAA.gif) no-repeat;
+  background-size: 100%
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  position: fixed;
+  height: 25%;
+  overflow: auto;
+  background: transparent;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+p1{
+  font-family: 'Poppins', sans-serif;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+h3{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+
